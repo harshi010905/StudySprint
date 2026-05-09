@@ -1,0 +1,29 @@
+.quote-box {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  background: var(--btn-sage);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  box-shadow: var(--shadow-soft);
+}
+
+.quote-text {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+[data-theme='dark'] .quote-box {
+  background: #111111;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+[data-theme='dark'] .quote-text {
+  color: #FFFFFF;
+}
